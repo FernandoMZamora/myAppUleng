@@ -1,12 +1,17 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content color="secondary">
+  <div style="text-align: center; align-content:center; align-self:center; margin-top: 20px;">
+    <img src="/assets/img/uleng_logo.png" style= "width: 250px; height: 355px;"/>
+  </div>
+  <ion-card-header color="secondary">
+  <ion-card-title text-center color="primary">Bienvenido a ULeng!</ion-card-title>
+  </ion-card-header>
+  <ion-card-content text-center>
+    <p>Las Manos son la Voz del Sordo</p>
+  </ion-card-content>
 </ion-content>
+
+<ion-footer (click)='go()'>
+  <ion-toolbar color="verde">
+    <ion-title text-center>INICIAR</ion-title>
+  </ion-toolbar>
+</ion-footer>

@@ -2,6 +2,39 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
+.ion-color-azulfuerte {
+  --ion-color-base: #2c3f52;
+}
+
+.ion-color-mamon {
+  --ion-color-base: #df6850;
+}
+
+.ion-color-violeta {
+  --ion-color-base: #931345;
+}
+
+.ion-color-mostaza {
+  --ion-color-base: #ee8d2d;
+}
+
+.ion-color-morado {
+  --ion-color-base: #49223e;
+}
+
+.ion-color-rosa {
+  --ion-color-base: #fd879b;
+}
+
+.ion-color-amarillo {
+  --ion-color-base: #f4cb32;
+}
+
+.ion-color-verde {
+  --ion-color-base: #6fc89e;
+}
+
 :root {
   /** primary **/
   --ion-color-primary: #3880ff;
@@ -74,4 +107,15 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** mis colores **/
+  --ion-color-azulfuerte: #2c3f52;
+  --ion-color-mamon: #df6850;
+  --ion-color-violeta: #931345;
+  --ion-color-mostaza: #ee8d2d;
+  --ion-color-morado: #49223e;
+  --ion-color-rosa: #fd879b;
+  --ion-color-amarillo: #f4cb32;
+  --ion-color-verde: #6fc89e;
+  
 }

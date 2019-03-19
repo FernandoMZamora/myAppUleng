@@ -21,4 +21,5 @@ export class APage{
   siguiente(){
     this.router.navigate(["/b"]);
   }
+  
 }
