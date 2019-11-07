@@ -71,6 +71,8 @@ const routes: Routes = [
   { path: 'terminos-de-uso', loadChildren: './terminos-de-uso/terminos-de-uso.module#TerminosDeUsoPageModule' },
   { path: 'error', loadChildren: './error/error.module#ErrorPageModule' },
   { path: 'instrucciones', loadChildren: './instrucciones/instrucciones.module#InstruccionesPageModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
+  { path: 'registro', loadChildren: './registro/registro.module#RegistroPageModule' },
 ];
 
 @NgModule({
